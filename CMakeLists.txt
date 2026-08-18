@@ -86,7 +86,7 @@ if(NOT TARGET "s-dftd3::s-dftd3")
   find_package("s-dftd3" REQUIRED)
 endif()
 if(TBLITE_WITH_DDX AND NOT TARGET "ddx")
-  find_package("ddX" CONFIG REQUIRED)
+  find_package("ddX" REQUIRED)
 endif()
   
 set(
